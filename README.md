@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # Minesweeper AI Trainer
 
-This project implements a system to train an AI model to play Minesweeper using OpenAI's fine-tuning capabilities. The system generates training data through gameplay, stores it in a database, and uses it to fine-tune a GPT-4.1 nano model.
+This project implements a system to train an AI model to play Minesweeper using fine-tuning capabilities. The system generates training data through gameplay, stores it in a database, and uses it to fine-tune a model.
 
 ## Setup
 
@@ -52,10 +52,7 @@ The system uses SQLite by default, with the following tables:
 
 ## Notes
 
-- The system uses GPT-4.1 nano for fine-tuning
+- The system uses a local LLaMa for fine-tuning
 - Training data is stored in `training_data.jsonl` before being sent to OpenAI
 - The fine-tuning job ID is printed at the end of the process 
-=======
-# MinesweeperDemo
-This is a minesweeper demo that is used for training a model using reinforcement learning
->>>>>>> b5f817d4ac6b1f71511bf68a90ff20ea726d98d0
+
