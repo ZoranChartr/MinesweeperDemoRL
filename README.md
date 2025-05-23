@@ -40,7 +40,7 @@ This will:
 
 1. The system generates Minesweeper games and records all actions taken
 2. Each game state and action is stored in the database
-3. The training data is formatted for OpenAI's fine-tuning API
+3. The training data is formatted for fine-tuning
 4. The model is fine-tuned to learn from successful and unsuccessful moves
 
 ## Database
@@ -52,7 +52,7 @@ The system uses SQLite by default, with the following tables:
 
 ## Notes
 
-- The system uses a local LLaMa for fine-tuning
+- The system uses a local LLaMa model for fine-tuning
 - Training data is stored in `training_data.jsonl` before being sent to OpenAI
 - The fine-tuning job ID is printed at the end of the process 
 
