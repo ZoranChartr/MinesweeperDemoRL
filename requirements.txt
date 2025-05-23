@@ -1,0 +1,16 @@
+# Database
+sqlalchemy==2.0.27
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Core dependencies
+numpy==1.26.4
+torch==2.2.0
+transformers==4.37.2
+peft==0.7.1
+bitsandbytes==0.41.3
+accelerate==0.25.0
+
+# Hugging Face utilities
+huggingface-hub==0.20.3 
